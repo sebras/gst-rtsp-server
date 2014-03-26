@@ -17,3 +17,5 @@ SUBDIRS = 			\
 
 DIST_SUBDIRS = 			\
 	check
+
+MOSTLYCLEANFILES = *.gcda *.gcno

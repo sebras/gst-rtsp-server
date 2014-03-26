@@ -118,3 +118,5 @@ typelibs_DATA = $(BUILT_GIRSOURCES:.gir=.typelib)
 
 CLEANFILES += $(BUILT_GIRSOURCES) $(typelibs_DATA)
 endif
+
+MOSTLYCLEANFILES = *.gcda *.gcno

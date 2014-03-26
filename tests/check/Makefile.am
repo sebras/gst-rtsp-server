@@ -60,3 +60,5 @@ LDADD = $(top_builddir)/gst/rtsp-server/libgstrtspserver-@GST_API_VERSION@.la \
 	$(GST_LIBS) $(GST_CHECK_LIBS) $(GST_RTSP_SERVER_LIBS)
 
 SUPPRESSIONS = $(top_srcdir)/common/gst.supp
+
+MOSTLYCLEANFILES = gst/*.gcda gst/*.gcno

@@ -12,3 +12,4 @@ noinst_PROGRAMS += test-cgroups
 LDADD += $(LIBCGROUP_LIBS)
 endif
 
+MOSTLYCLEANFILES = *.gcda *.gcno
